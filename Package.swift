@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "IScribeAI", 
-            path: "Sources/IScribeAISource.xcframework"
+            path: "Sources/IScribeAISDK.xcframework.zip"
         )
     ]
 )
