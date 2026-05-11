@@ -12,7 +12,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/amplitude/AmplitudeCore-Swift.git", from: "1.4.1"),
+        .package(url: "https://github.com/amplitude/AmplitudeCore-Swift.git", exact: "1.4.1"),
     ],
     targets: [
         .binaryTarget(
