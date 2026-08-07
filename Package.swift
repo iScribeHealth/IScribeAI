@@ -12,7 +12,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/amplitude/AmplitudeCore-Swift.git", exact: "1.4.1"),
+        .package(url: "https://github.com/amplitude/AmplitudeCore-Swift.git", exact: "1.4.7")
     ],
     targets: [
         .binaryTarget(
@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "IScribeAIDependencies",
             dependencies: [
-                .product(name: "AmplitudeCoreFramework", package: "AmplitudeCore-Swift"),
+                .product(name: "AmplitudeCoreFramework", package: "AmplitudeCore-Swift")
             ],
             path: "Sources/IScribeAI"
         )
